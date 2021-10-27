@@ -1,0 +1,9 @@
+{
+    "name": "cccchao/skeleton",
+    "autoload": {
+        "psr-4": {
+            "Cccchao\\Skeleton\\": "src/"
+        }
+    },
+    "require": {}
+}
