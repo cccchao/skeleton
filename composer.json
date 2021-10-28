@@ -1,16 +1,22 @@
 {
-    "name": "cccchao/skeleton",
-    "authors": [
-        {
-            "name": "cccchao",
-            "email": "hellfcf@gmail.com"
-        }
-    ],
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Cccchao\\Skeleton\\": "src/"
-        }
-    },
-    "require": {}
+    "skeleton": {
+        "cccchao/skeleton": {
+            "description": "laravel skeleton",
+            "type": "library",
+            "authors": [{
+                "name": "cccchao",
+                "email": "hellfcf@gmail.com"
+            }],
+            "license": "MIT",
+            "autoload": {
+                "psr-4": {
+                    "Cccchao\\Skeleton\\": "src/"
+                }
+            },
+            "require": {
+                "php": ">=7.0.0"
+            }
+        },
+        "minified": "composer/2.0"
+    }
 }
