@@ -1,5 +1,12 @@
 {
     "name": "cccchao/skeleton",
+    "authors": [
+        {
+            "name": "cccchao",
+            "email": "hellfcf@gmail.com"
+        }
+    ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Cccchao\\Skeleton\\": "src/"
