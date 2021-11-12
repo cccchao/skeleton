@@ -2,26 +2,20 @@
     "name": "cccchao/skeleton",
     "description": "laravel skeleton",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "cccchao",
-            "email": "hellfcf@gmail.com"
+            "email": "cccchao@gmail.com"
         }
     ],
-    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": "~8.0"
+    },
     "autoload": {
         "psr-4": {
             "Cccchao\\Skeleton\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=7.0.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Cccchao\\Admin\\AdminServiceProvider"
-            ]
         }
     }
 }
